@@ -52,10 +52,6 @@ h1{
     display: block;
 }
 
-.mem{
-    
-}
-
 .change-icons{
     width: 1rem;
     height: 1rem;
@@ -85,9 +81,6 @@ h1{
     display: none;
 }
 
-:checked:active{
-    background-color: yellow;
-}
 
 
 
