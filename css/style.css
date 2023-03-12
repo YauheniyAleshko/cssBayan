@@ -1,0 +1,52 @@
+*{
+    padding:0rem ;
+    margin: 0rem;
+}
+
+.bayan{
+    background: rgb(213, 205, 206);
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2.75rem;
+    padding-top: 1rem;
+}
+
+.block_mem{
+    border-top: 1px solid grey;
+}
+
+.block_mem:hover > .mem-picture{
+    display: block;
+}
+
+.wrap-stroke{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mem-name{
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: 700;
+}
+
+.mem-picture{
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem auto;
+    display: none;
+}
+
+.icon{
+    width: 1rem;
+    display: block;
+    margin-right: 1rem;
+}
+
+
+
+
