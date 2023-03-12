@@ -1,0 +1,91 @@
+*{
+    padding:0rem ;
+    margin: 0rem;
+}
+
+.bayan{
+    background: rgb(213, 205, 206);
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.bayan:hover .mem{
+    color: black;
+}
+
+h1{
+    font-size: 2.75rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+.mem{
+    border-top: 0.1rem solid grey;
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.mem-picture img{
+    width: 20rem;
+}
+
+.mem-picture{
+    display: none;
+    text-align: center;
+}
+
+.one,.two,.three,.four,.five{
+    display: flex;
+    cursor:  pointer;
+    justify-content: space-between;
+}
+
+.mem-input{
+    appearance: none;
+}
+
+.mem-input:checked + .mem-picture{
+    display: block;
+}
+
+.change-icons{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 2rem;
+    display: none;
+}
+
+.bayan:hover .change-icons{
+    display:inline-block;
+}
+
+.change-icons .img{
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+}
+
+.change-icons .icon:nth-of-type(2) {
+    display: none;
+}
+
+.change-icons:hover .icon:nth-of-type(2){
+    display: block;
+}
+
+.change-icons:hover .icon:nth-of-type(1){
+    display: none;
+}
+
+
+
+
+
+
+
+
+
